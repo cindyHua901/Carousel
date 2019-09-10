@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <title>旋转木马效果幻灯片</title>
+    <link type="text/css" rel="stylesheet" href="css/carousel.css">
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/Carousel2.js" ></script>
+</head>
+<body style="padding:50px;">
+    <!-- DOM结构 -->
+    <div class="J_Poster"style="width:650px;height:275px;margin:0 auto">
+        <div class="poster-main">
+            <div class="poster-btn poster-prev-btn"></div>
+            <ul class="poster-list">
+                <li class="poster-item"><img src="img/boji/1.jpg" width="100%" alt="tu1"></li>
+                <li class="poster-item"><img src="img/boji/2.jpg" width="100%" alt="tu1"></li>
+                <li class="poster-item"><img src="img/boji/3.jpg" width="100%" alt="tu1"></li>
+                <li class="poster-item"><img src="img/boji/4.jpg" width="100%" alt="tu1"></li>
+                <li class="poster-item"><img src="img/boji/5.jpg" width="100%" alt="tu1"></li>
+                <li class="poster-item"><img src="img/boji/6.jpg" width="100%" alt="tu1"></li>
+                <li class="poster-item"><img src="img/boji/7.jpg" width="100%" alt="tu1"></li>
+            </ul>
+            <div class="poster-btn poster-next-btn"></div>
+        </div>
+    </div>  
+
+    <script>
+
+        $(function(){
+            $(".J_Poster").Carousel({
+                "width":650,
+                 "height":275,
+                "posterWidth":425,
+                "posterHeight":275,
+                "verticalAlign":"middle",
+                "scale":0.9,
+                "speed":1000,
+                "autoPlay":true,
+                "delay":2000
+            });
+        })
+        
+    </script>
+</body>
+</html>
