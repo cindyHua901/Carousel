@@ -2,10 +2,10 @@
 ##A Carousel plugin based on jQuery
 
 ## 在你的项目中使用这个插件的方法
-首先下载Carousel.js和Carousel.css 在html文件中引用它们，并且引用jQuery（因为这个插件是基于jQuery开发的）
-然后在文件中按照index.html的示例写dom结构
-（1）可以在包裹Carousel的容器里使用 data-Carousel来使用Carousel,只是这样不方便配置参数
-（2）或者在html中使用使用以下代码来配置Carousel 在Carousel方法里面配置Carousel的参数
+首先下载Carousel.js和Carousel.css 在html文件中引用它们，并且引用jQuery（因为这个插件是基于jQuery开发的）  
+然后在文件中按照index.html的示例写dom结构  
+（1）可以在包裹Carousel的容器里使用 data-Carousel来使用Carousel,只是这样不方便配置参数  
+（2）或者在html中使用使用以下代码来配置Carousel 在Carousel方法里面配置Carousel的参数  
 ```javaScript
 $("#carouselContainer").Carsouel({
 // Carsouel setting
