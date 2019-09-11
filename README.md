@@ -1,5 +1,5 @@
 # Carousel
-##A Carousel plugin based on jQuery
+## A Carousel plugin based on jQuery
 
 ## 在你的项目中使用这个插件的方法
 首先下载Carousel.js和Carousel.css 在html文件中引用它们，并且引用jQuery（因为这个插件是基于jQuery开发的）  
