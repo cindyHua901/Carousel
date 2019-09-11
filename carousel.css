@@ -1,0 +1,20 @@
+ul,ol{list-style: none}
+*{margin: 0;padding: 0;}
+caption,th{text-align: center}
+clearfix:after{visibility: hidden;display: block;font-size: 0;content: "";clear: both;height:0;}
+/* 旋转木马必要样式 */
+.poster-main{
+    position: relative;
+    width: 800px;
+    /*高度设置为图片的高度*/
+    height: 270px;
+}
+/* ul 的宽高与图片的宽高一样 相对ul的left值不一样 */
+.poster-main .poster-list{width: 800px;height: 270px;}
+.poster-main a,.poster-main img{display: block;}
+/* li item  宽度高度不一样，相对于这里也是需要计算的 层级关系 透明度也不一样 需要JS控制*/
+.poster-main .poster-item{position: absolute;top:0;left: 0;}
+/* 上下切换的按钮 */
+.poster-btn{position:absolute;top:0;width:100px;height: 270px;z-index: 10;cursor: pointer;opacity: 0.8;}
+.poster-main .poster-prev-btn{left: 0;background: url(../img/btn_l.png) no-repeat center center}
+.poster-main .poster-next-btn{right: 0;background:url(../img/btn_r.png) no-repeat center center}
